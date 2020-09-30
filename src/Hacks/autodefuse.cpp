@@ -50,7 +50,7 @@ void AutoDefuse::CreateMove(CUserCmd *cmd)
 	}
 	else
 	if (Settings::AutoDefuse::enabled)
-	{	
+	{
 		if (localplayer->HasDefuser() && bombTimer > 5.5f)
 			return;
 

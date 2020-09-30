@@ -246,6 +246,13 @@ public:
 	{
 		return (bool*)((uintptr_t)this + offsets.DT_BaseEntity.m_bSpotted);
 	}
+
+    // Ensibot code
+    bool IsPlayer()
+    {
+        typedef bool (* oIsPlayer)( void );
+        return getvfunc<oIsPlayer>( this, 155 )();
+    }
 };
 
 /* generic game classes */
