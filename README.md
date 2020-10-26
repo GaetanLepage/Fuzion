@@ -66,7 +66,7 @@ You can build easily with the included build script.
 ./build
 ```
 
-You can later update with 
+You can later update with
 ```bash
 ./update
 ```
@@ -74,7 +74,7 @@ You can later update with
 
 ## Injecting using the load script
 
-First of all, make sure CS:GO is open, it does not matter whether you are in game or not. However, it is not recommended to inject while CS:GO is loading into a map. 
+First of all, make sure CS:GO is open, it does not matter whether you are in game or not. However, it is not recommended to inject while CS:GO is loading into a map.
 
 Navigate to the directory where Fuzion was built if you have not ready.
 ```bash
@@ -88,7 +88,7 @@ Now, you can inject the hack with the `load` script
 
 You might be prompted to enter in your password, this is because the injection script requires root access.
 
-The text printed out during injection is not important. 
+The text printed out during injection is not important.
 
 If the injection was successful you will see a message at the bottom saying `Successfully injected!`, however, if the message says `Injection failed`, then you've most likely done something wrong.
 
@@ -96,7 +96,7 @@ Now, go back into CS:GO, if you are in the main menu of the game you should see 
 
 ![this](http://i.imgur.com/Gb0SV1u.png)
 
-*Note:* if you are getting crashes ( that are unrelated to game updates ) Try disabling shader precaching in your Steam Client -> Steam -> Settings -> Shader Pre-Caching. 
+*Note:* if you are getting crashes ( that are unrelated to game updates ) Try disabling shader precaching in your Steam Client -> Steam -> Settings -> Shader Pre-Caching.
 
 ## Using the hack
 
@@ -114,12 +114,12 @@ If you wish to unload the hack from the game, you can do so by entering the comm
 
 ## Configs
 
-Configs are stored in a hidden directory in your home folder. Specifically 
+Configs are stored in a hidden directory in your home folder. Specifically
 ```
 ~/.config/Fuzion
 ```
 
-Each `config.json` is stored in a seperately named folder (The name you see in-game, in the config window). 
+Each `config.json` is stored in a seperately named folder (The name you see in-game, in the config window).
 
 To add a config, create a folder inside of the `~/.config/Fuzion` folder with a name of your choice, and paste the `config.json` inside of that folder.
 

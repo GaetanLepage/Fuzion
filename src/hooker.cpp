@@ -253,7 +253,11 @@ void Hooker::FindPrediction()
 void Hooker::FindSetLocalPlayerReady()
 {
 	// xref: "deferred"
+<<<<<<< Updated upstream
 	uintptr_t func_address = PatternFinder::FindPatternInModule((XORSTR("/client_client.so")),
+=======
+	uintptr_t func_address = PatternFinder::FindPatternInModule((XORSTR("client_panorama_client.so")),
+>>>>>>> Stashed changes
 																(unsigned char*) XORSTR("\x55\x48\x89\xF7\x48\x8D\x35\x00\x00\x00\x00\x48\x89\xE5\xE8\x00\x00\x00\x00\x85\xC0"),
 																XORSTR("xxxxxxx????xxxx????xx"));
 
